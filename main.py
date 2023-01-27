@@ -33,7 +33,7 @@ class Block:
 
 
 class Blockchain():
-    difficult = 2
+    difficult = 4
 
     def __init__(self):
         self.chain = self.create_root_block()
